@@ -226,7 +226,8 @@ const adress = {
   country: "France",
 };
 
-const completeAdress = Object.assign({}, adress, { postalCode: 75001 });
+//const completeAdress = Object.assign({}, adress, { postalCode: 75001 });
+const completeAdress = {...adress, postalCode: "75001"};
 
 console.log("Exercice 4.3");
 console.log(completeAdress);
