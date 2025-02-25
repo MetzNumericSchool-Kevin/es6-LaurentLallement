@@ -258,12 +258,14 @@ thatsAllFolks();
 
 // Exercice 5.2 : Convertir toutes les fonctions en fonction fléchée
 // Et si c'est possible, faire un return implicite
-const makeDouble = function (numbers) {
-  return numbers.map(function (number) {
-    const newNumber = number * 2;
-    return newNumber;
-  });
-};
+// const makeDouble = function (numbers) {
+//   return numbers.map(function (number) {
+//     const newNumber = number * 2;
+//     return newNumber;
+//   });
+// };
+
+const makeDouble = (numbers) => numbers.map((number) => number * 2);
 
 console.log("Exercice 5.2");
 console.log(makeDouble([1, 2, 3]));
