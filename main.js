@@ -150,10 +150,12 @@ hello(person);
  */
 
 // Exercice 3.1 : Décompose le tableau colors pour ne garder dans le reste que les couleurs bleue et jaune
-const restOfColors = [];
+// const restOfColors = [];
 
-restOfColors.push(colors[2]);
-restOfColors.push(colors[3]);
+// restOfColors.push(colors[2]);
+// restOfColors.push(colors[3]);
+
+const restOfColors = [, , blue, yellow]
 
 console.log("Exercice 3.1");
 console.log(restOfColors);
