@@ -6,13 +6,14 @@
 // Exercice 1.1 : Transforme la concaténation en interpolation de chaîne de caractères avec les backticks `
 function afficheAddresse(address) {
   return (
-    "Votre adresse est : " +
-    address.street +
-    ", " +
-    address.city +
-    ", " +
-    address.country +
-    "."
+    // "Votre adresse est : " +
+    // address.street +
+    // ", " +
+    // address.city +
+    // ", " +
+    // address.country +
+    // "."
+      `Votre adresse est : ${address.street}, ${address.city}, ${address.country}`
   );
 }
 
