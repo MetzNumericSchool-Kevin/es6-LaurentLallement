@@ -188,8 +188,11 @@ console.log(Math.min(...randomNumbers));
 
 // Exercice 3.4 : Transforme cette fonction pour qu'elle puisse prendre
 // un nombre indéfini de paramètres car actuellement elle en prend que 3
-function min(a, b, c) {
-  return Math.min(a, b, c);
+// function min(a, b, c) {
+//   return Math.min(a, b, c);
+// }
+function min(...randomNumbers) {
+  return Math.min(...randomNumbers);
 }
 
 console.log("Exercice 3.4");
