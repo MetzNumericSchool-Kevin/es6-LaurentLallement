@@ -247,12 +247,14 @@ console.log(person2);
  */
 
 // Exercice 5.1 : Convertir en fonction fléchée
-const thatsAllFolks = function () {
-  console.log("That's all folks!");
-};
+// const thatsAllFolks = function () {
+//   console.log("That's all folks!");
+// };
+const thatsAllFolks =  () => console.log("That's all folks!");
 
 console.log("Exercice 5.1");
 thatsAllFolks();
+
 
 // Exercice 5.2 : Convertir toutes les fonctions en fonction fléchée
 // Et si c'est possible, faire un return implicite
